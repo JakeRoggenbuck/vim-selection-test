@@ -3,10 +3,10 @@
 " Version:      0.1
 " License:      MIT
 
-if exists('g:loaded_character_creator_plugin') || &compatible || v:version < 700
+if exists('g:loaded_selection_test_plugin') || &compatible || v:version < 700
 	finish
 endif
-let g:loaded_character_creator_plugin = 1
+let g:loaded_selection_test_plugin = 1
 
 function! g:Get_Visual_Selection()
     let [line_start, column_start] = getpos("'<")[1:2]
